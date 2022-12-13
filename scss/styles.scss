@@ -1,0 +1,470 @@
+// Declaração de variáveis
+$primary: #FC9E4F;
+$body-bg: rgba(252, 157, 79, 0.219);
+
+//Importação do Bootstrap
+@import "/node_modules/bootstrap/scss/bootstrap";
+
+
+#logo {
+    width: 100px;
+    height: 50px;
+    margin-top: -10px;
+    margin-bottom: -7px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+#mPed {
+    text-align: center;
+}
+
+
+/* CARTÕES DE PROGRAMAÇÃO*/
+
+#card1 {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 450px;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    perspective: 600px;
+    transition: 0.5s;
+}
+
+#card1 .front {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    backface-visibility: hidden;
+    transform: rotateX(0deg);
+    transition: 0.5s;
+}
+
+#card1:hover .front {
+    transform: rotateX(-180deg);
+}
+
+#card1 .back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    backface-visibility: hidden;
+    transform: rotateX(180deg);
+    transition: 0.5s;
+}
+
+#card1:hover .back {
+    transform: rotateX(0deg);
+}
+
+#card2 {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 450px;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    perspective: 600px;
+    transition: 0.5s;
+}
+
+#card2 .front {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    backface-visibility: hidden;
+    transform: rotateX(0deg);
+    transition: 0.5s;
+}
+
+#card2:hover .front {
+    transform: rotateX(-180deg);
+}
+
+#card2 .back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    backface-visibility: hidden;
+    transform: rotateX(180deg);
+    transition: 0.5s;
+}
+
+#card2:hover .back {
+    transform: rotateX(0deg);
+}
+
+#card3 {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 450px;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    perspective: 600px;
+    transition: 0.5s;
+}
+
+#card3 .front {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    backface-visibility: hidden;
+    transform: rotateX(0deg);
+    transition: 0.5s;
+}
+
+#card3:hover .front {
+    transform: rotateX(-180deg);
+}
+
+#card3 .back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    backface-visibility: hidden;
+    transform: rotateX(180deg);
+    transition: 0.5s;
+}
+
+#card3:hover .back {
+    transform: rotateX(0deg);
+}
+
+#card4 {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 450px;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    perspective: 600px;
+    transition: 0.5s;
+}
+
+#card4 .front {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    backface-visibility: hidden;
+    transform: rotateX(0deg);
+    transition: 0.5s;
+}
+
+#card4:hover .front {
+    transform: rotateX(-180deg);
+}
+
+#card4 .back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    backface-visibility: hidden;
+    transform: rotateX(180deg);
+    transition: 0.5s;
+}
+
+#card4:hover .back {
+    transform: rotateX(0deg);
+}
+
+#card5 {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 450px;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    perspective: 600px;
+    transition: 0.5s;
+}
+
+#card5 .front {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    backface-visibility: hidden;
+    transform: rotateX(0deg);
+    transition: 0.5s;
+}
+
+#card5:hover .front {
+    transform: rotateX(-180deg);
+}
+
+#card5 .back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    backface-visibility: hidden;
+    transform: rotateX(180deg);
+    transition: 0.5s;
+}
+
+#card5:hover .back {
+    transform: rotateX(0deg);
+}
+
+#card6 {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 450px;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    perspective: 600px;
+    transition: 0.5s;
+}
+
+#card6 .front {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    backface-visibility: hidden;
+    transform: rotateX(0deg);
+    transition: 0.5s;
+}
+
+#card6:hover .front {
+    transform: rotateX(-180deg);
+}
+
+#card6 .back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    backface-visibility: hidden;
+    transform: rotateX(180deg);
+    transition: 0.5s;
+}
+
+#card6:hover .back {
+    transform: rotateX(0deg);
+}
+
+#pedidos {
+    font-family: Arial, Helvetica, sans-serif;
+    .content {
+        display: flex;
+        justify-content: center
+    }
+    .contato {
+        width: 100%;
+        max-width: 500px;
+    }
+    .form {
+        display: flex;
+        flex-direction: column
+    }
+    .field {
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid rgba(0, 0, 255, 0.521);
+        border-radius: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+    }
+    #area {
+        height: 150px;
+    }
+}
+
+#logoAC {
+    display: flex;
+    justify-content: center;
+}
+
+#cardEnd {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("../assets/fundo2.jpg");
+    background-attachment: fixed;
+    background-repeat: space;
+}
+
+#glass {
+    position: relative;
+    max-width: 550px;
+    padding: 50px;
+    padding-left: 80px;
+    margin-top: 33px;
+    margin-bottom: 33px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    overflow: hidden;
+    color: #000;
+}
+
+#glass:before {
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    right: -20px;
+    bottom: -20px;
+    background: url("../assets/fundo2.jpg");
+    background-attachment: fixed;
+    filter: blur(3px);
+}
+
+#glass h3 {
+    position: relative;
+    margin: 0 0 20px;
+    padding: 0;
+    text-transform: uppercase;
+    z-index: 2;
+}
+
+#glass ul {
+    position: relative;
+    margin: 0 0 20px;
+    padding: 0;
+    z-index: 2;
+    text-align: left;
+}
+
+#media {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#media li {
+    position: relative;
+    list-style: none;
+    width: 45px;
+    height: 45px;
+    margin: 0px 30px -20px 0px;
+    transform: rotate(-30deg) skew(25deg);
+    background: #ccc;
+    padding-right: 15px;
+}
+
+#media li span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:black;
+    transition: 0.5s;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 30px !important;
+    margin-left: -5px;
+    padding-bottom: 0px;
+}
+
+#media li:hover span:nth-child(5) {
+    transform: translate(40px, -40px);
+    opacity: 1;
+}
+
+#media li:hover span:nth-child(4) {
+    transform: translate(30px, -30px);
+    opacity: .8;
+}
+
+#media li:hover span:nth-child(3) {
+    transform: translate(20px, -20px);
+    opacity: .6;
+}
+
+#media li:hover span:nth-child(2) {
+    transform: translate(10px, -10px);
+    opacity: .4;
+}
+
+#media li:hover span:nth-child(1) {
+    transform: translate(0,0);
+    opacity: .2;
+}
+
+#headFoot {
+    font-size: 20px;
+    text-align: center;
+}
+
+.my-4 {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.733);
+}
+
+#fonte{
+    font-size: 12px;
+}
+
+#media li:nth-child(1) span {
+    background: #3b5999;
+}
+
+#media li:nth-child(2) span {
+    background: #55acee;
+}
+
+#media li:nth-child(3) span {
+    background: #E1306C;
+}
+
+#media li:nth-child(4) span {
+    background: red;
+}
+
+#media li:nth-child(5) span {
+    background: #0077b5;
+}
+
